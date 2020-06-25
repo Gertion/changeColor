@@ -7,4 +7,4 @@ document.getElementById('setDefault').addEventListener("click", () => center_blo
 document.getElementById('setOrange').onclick = (event) =>
 {center_block.style.backgroundColor = "#ff5722"; console.log(event)};
 
-//       найти элемент      I  id - элемента     I   onclick остается навсегда I ()=> Не заданная функция(упращенный код)
+//       найти элемент      I  id - элемента     I   onclick остается навсегда I ()=> Не заданная функция[упращенный код]

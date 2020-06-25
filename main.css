@@ -1,0 +1,44 @@
+body {
+    height : 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    flex-direction: column;
+    background-color: #e0e0e0;
+    /*outline: none;*/
+}
+
+#centerBlock {
+    width: 50vh;
+    background-color: black;
+    padding: 8px;
+    height: 50vh;
+}
+
+#buttons {
+    margin-top: 2vh;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    background: #ffb74d;
+    padding: 10px;
+    font-size: 27px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    outline: none;
+    transition: 0.3s;
+    border: 4px solid #ff9800;
+
+
+
+}
+button:hover{
+    background-color: #fb8c00;
+}
+
+button:active{
+    background-color: #ffe082;
+}
